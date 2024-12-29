@@ -1,5 +1,12 @@
-print("Hi this is github example ")
+"""
+This module contains examples of using GitHub for collaboration.
+"""
 
-print("i made 1st change through local to push")
+print("Hi, this is a GitHub example.")
+print("I made the first change locally to push.")
+print("I made the second change through GitHub to pull.")
 
-print("i made 2nd change through github to pull")
+# Calling test function from hooktest.py
+from hooktest import test
+test()
+
